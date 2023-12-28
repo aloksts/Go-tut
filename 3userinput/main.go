@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	msg := "welcome to Go"
+	msg := "welcome to Go ---learning"
 	fmt.Println(msg)
 
 	reader := bufio.NewReader(os.Stdin)
@@ -22,8 +22,8 @@ func main() {
 
 	if err != nil {
 		fmt.Println(err)
+	} else {
+		fmt.Println("square of number")
+		fmt.Println(sqn * sqn)
 	}
-	fmt.Println("square of number")
-	fmt.Println(sqn * sqn)
-
 }
